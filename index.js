@@ -7,7 +7,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
     try {
         res.json({ 
-            message: "Hello",
+            message: "Hellooooooooooooo",
             timestamp: new Date().toISOString(),
         });
     } catch (error) {
